@@ -1,0 +1,19 @@
+{
+  "name": "dj-challenge-cesmadrinico",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@pages": "src/ui/pages",
+    "@helpers": "src/api/helpers"
+  }
+}
